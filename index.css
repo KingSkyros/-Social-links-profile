@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+.bt{
+    text-align: center;
+}
+
 body{
     background-color: var(--background-color);
     font-family: 'Inter', cursive;
@@ -76,7 +80,7 @@ h1{
     flex-direction: column;
 }
 
-button{
+.but{
     background-color: var(--button-bg);
     width: 20rem;
     padding: 15px;
@@ -86,9 +90,10 @@ button{
     margin: 20px auto;
     border-radius: 1rem;
     border: 2px solid var(--body);
+    cursor: pointer;
 }
 
-button:hover{
+.but:hover{
     background-color: var(--p-text);
     color: black;
     border: white 2px solid;
